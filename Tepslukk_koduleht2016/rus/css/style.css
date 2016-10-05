@@ -1,0 +1,504 @@
+/* ================================
+Imports
+================================= */
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,300,700,800);
+@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url('font-awesome.min.css');
+@import url('overwrite.css');
+@import url('dlmenu.css');
+@import url('animate.css');
+
+/* ================================
+General
+================================= */
+body{
+	text-align: center;
+	font-family: "Lato", sans-serif;
+	font-size: 16px;
+	
+}
+
+h1 {
+	font-size: 36px;
+}
+h2 {
+	font-size: 32px;
+    margin-top: 30px;
+}
+h3 {
+	font-size: 28px;
+}
+h4 {
+	font-size: 24px;
+}
+h5 {
+	font-size: 20px;
+}
+h6 {
+	font-size: 18px;
+}
+
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
+	color: #3a3a3a;
+	margin-bottom: 20px;
+	font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+}
+
+
+.lead{
+	font-weight: 400;
+}
+
+button {
+	display: inline-block;
+	margin-bottom: 0;
+	margin-bottom: 10px;
+	padding: 6px 12px;
+	border: 1px solid transparent;
+	vertical-align: middle;
+	text-align: center;
+	white-space: nowrap;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 1.428571429;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+button.navbar-toggle {
+	background: #2b2b2b;
+	border: none;
+	color: #fff;
+}
+
+.btn-theme,.btn-theme:hover,.btn-theme:focus{
+	color: #fff;
+}
+.btn-theme:hover{
+	background: transparent !important;
+	border-color: #999;
+	color: #999;
+}
+
+
+/* ================================
+margin, padding
+================================= */
+.mar-top0 {
+	margin-top: 0;
+}
+.mar-top10 {
+	margin-top: 10px;
+}
+.mar-top20 {
+	margin-top: 20px;
+}
+.mar-top30 {
+	margin-top: 30px;
+    margin-right: 300px;
+}
+.mar-top40 {
+	margin-top: 40px;
+}
+
+
+
+/* ================================
+Home sections
+================================= */
+
+.home-section {
+	width: 100%;
+	padding: 0px 0px 40px;
+    background-color: #fff
+}
+
+/* --- heading --- */
+.section-heading {
+	margin-bottom: 10px;
+    margin-left: 20px;
+}
+	
+.section-heading h2 {
+	font-size: 16px;
+}
+	
+.section-heading .heading-line {
+	margin:0 auto;
+	display: block;
+	height: 1px;
+	width: 80px;
+	background: #333;
+	margin-top: 2px;
+	margin-bottom: 20px;
+}
+
+.section-body {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    
+    -webkit-columns: 300px 2; /* Chrome, Safari, Opera */
+    -moz-columns: 300px 2; /* Firefox */
+    columns: 300px 2;
+}
+
+.section-body h2 {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+.section-body .upper-left {
+    float: left;
+    background-image: url(../img/spacer/1.jpg);
+    margin-left: -10px;
+    text-align: justify;
+    color: #FFFFFF;
+    width: 400px;
+    height: 350px;
+    text-align: left;
+    display: inline-table;
+ 
+}
+
+.section-body .upper-left p {
+    text-align: center;
+}
+.section-body .upper-left:hover {
+    opacity: 1;
+    box-shadow: inset;
+    -webkit-box-shadow: 20px 20px 20px 0px rgba(98,112,135,0.72);
+    -moz-box-shadow: 20px 20px 20px 0px rgba(98,112,135,0.72);
+    box-shadow: 20px 20px 20px 0px rgba(98,112,135,0.72);
+    
+}
+
+.section-body .upper-right {
+    width: 400px;
+    height: 350px;
+    background-image: url(../img/spacer/1.jpg);
+    color: #FFFFFF;
+    margin-left: 30px;
+    text-align: left; 
+    display: inline-table;
+}
+
+
+.section-body .upper-right:hover {
+    opacity: 1;
+    -webkit-box-shadow: 20px 20px 20px 0px rgba(98,112,135,0.72);
+    -moz-box-shadow: 20px 20px 20px 0px rgba(98,112,135,0.72);
+    box-shadow: 20px 20px 20px 0px rgba(98,112,135,0.72);
+}
+
+.section-body .down-left {
+    float: left;
+    background-image: url(../img/spacer/1.jpg);
+    color: #FFFFFF;
+    margin-left: -10px;
+    margin-top: 20px;
+    width: 400px;
+    height: 350px;
+    text-align: left;
+    display: inline-table;
+}
+
+.section-body .down-left:hover {
+    opacity: 1;
+    -webkit-box-shadow: 20px 20px 20px 0px rgba(98,112,135,0.72);
+    -moz-box-shadow: 20px 20px 20px 0px rgba(98,112,135,0.72);
+    box-shadow: 20px 20px 20px 0px rgba(98,112,135,0.72);
+}
+
+.section-body .down-right {
+    float: right;
+    background-image: url(../img/spacer/1.jpg);
+    color: #FFFFFF;
+    margin-right: -65px;
+    margin-top: 20px;
+    width: 400px;
+    height: 350px;
+    text-align: left;
+    display: inline-table;
+    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;
+}
+
+.section-body .down-right:hover {
+    opacity: 1;
+    -webkit-box-shadow: 20px 20px 20px 0px rgba(98,112,135,0.72);
+    -moz-box-shadow: 20px 20px 20px 0px rgba(98,112,135,0.72);
+    box-shadow: 20px 20px 20px 0px rgba(98,112,135,0.72);
+}
+
+.section-body h1 {
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+
+.section-body .left .middle .right .pealkiri {
+    font-size: larger;
+}
+	
+/* --- section bg var --- */
+
+.bg-white {
+	background: ;
+    
+}
+
+.bg-gray {
+	background: #f8f8f8;
+}
+
+.bg-dark {
+	background: #575757;
+}
+
+
+/* --- section content general color --- */
+
+.color-light h1,.color-light h2,.color-light h3,.color-light h4,.color-light h5,.color-light h6 {
+	color: #fff;
+}
+
+
+.color-light p {
+	color: #eee;
+}
+
+
+/* ==========================
+Spacer
+============================= */
+
+#spacer1{	
+	background-image: url(../img/spacer/1.jpg);
+    margin-top: 0px;
+}
+#spacer2{	
+	background-image: url(../img/spacer/1.jpg);
+}
+
+
+/* ================================
+Intro
+================================= */
+
+#intro{
+    height:500px;
+    width:100%;
+    background-image: url(../img/bg-mac9.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    overflow-y:hidden;
+    text-align:center;
+    position:relative;
+}
+
+
+
+.intro-text {
+	position:relative;
+	width:100%;
+	margin-top:200px;
+	z-index:1000;
+}
+#intro .brand {
+	margin-top: 40px;
+}
+.intro-text h1 a {
+	color:#fff;
+	text-align:center;
+	font-weight: 700;
+	font-size: 40px; 
+	line-height:1.1em;
+	padding-top:30px;
+	text-transform: uppercase;	
+}
+.intro-text h1 a:hover {
+	text-decoration: none;
+}
+
+.line-spacer {
+	width: 20%;
+	margin:0 auto;
+	margin-top: 20px;
+	margin-bottom: 25px;
+	border-bottom:1px solid #fff;
+}
+
+.intro-text p span {
+	color:#fff;
+	font-size: 24px;
+	text-align:center;
+	font-weight: 300;
+}
+
+/* ================================
+About
+================================= */
+.box-team img {
+	margin-bottom: 30px;
+}
+
+
+
+/* ================================
+Services
+================================= */
+
+.service-box p {
+	margin-bottom: 10px; 
+}
+
+.service.carousel h4,.service.carousel p {
+	text-align: left;
+}
+
+
+.service .carousel-control{
+	background: none;
+}
+
+.service .screenshot{
+	overflow: hidden;
+	overflow: hidden;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.service .screenshot img{
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 4px;
+	width: 400px;
+}
+
+.service .carousel-indicators {
+	position: relative;
+	bottom: 0;
+	left: 0;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding: 5px;
+	padding-bottom: 8px;
+	width: 100%;
+	background: #ffffff;
+}
+
+.service .carousel-indicators .active {
+	width: 45px;
+	height: 5px;
+	border: none;
+	border-radius: 0px;
+}
+
+.service .carousel-indicators li {
+	display: inline-block;
+	margin: 1px;
+	width: 45px;
+	height: 5px;
+	border: none;
+	border-radius: 0px;
+	background: #eeeeee;
+	text-indent: -999px;
+	cursor: pointer;
+}
+
+
+
+/* 
+	100% Height for Opera as the max-height seems to be ignored, not optimal for large screens 
+	http://bricss.net/post/11230266445/css-hack-to-target-opera 
+*/
+x:-o-prefocus, .lb-overlay img {
+    height: 100%;
+}
+
+
+/* ================================
+Contact
+================================= */
+
+#maps {
+    width: 200px;
+    height: 200px;
+    background-color: #CCC;
+    margin-left: 700px;
+}
+
+
+/* ================================
+Bottom widget
+================================= */
+ul.social-network {	
+	margin: 0;
+	margin-left:0;
+	padding-left: 0;
+	list-style: none;
+}
+ul.social-network li {
+	display: inline;
+	margin: 5px 5px;
+}
+
+ul.social-network li a:hover span .fa-circle {
+	color: #2b2b2b;
+}
+
+/* ================================
+Footer
+================================= */
+footer {
+	background: #2b2b2b;
+	color: #ddd;
+	padding: 50px 0 30px;
+    margin-top: 30px;
+}
+
+
+/* ================================
+more media queries
+================================= */
+
+@media (max-width:768px) {
+	#intro{
+		background-image: url(../img/bg-mac.png);
+		background-size:100%;
+	}
+	.box-team, .box-team img {
+		text-align: center;
+	}
+	.box-team img {
+		float: none;
+		margin:0 auto;
+	}	
+	.box-team {
+		margin-bottom: 30px;
+	}
+
+	
+}
+
+@media (max-width:992px) {
+
+
+	.service p{
+			margin-bottom: 60px;
+	}
+
+}
+
+@media (max-width:480px){
+	#intro{
+		background-image: none;
+	}
+}

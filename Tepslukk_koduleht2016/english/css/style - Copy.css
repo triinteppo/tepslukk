@@ -1,0 +1,809 @@
+/* ================================
+Imports
+================================= */
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,300,700,800);
+@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+@import url('font-awesome.min.css');
+@import url('overwrite.css');
+@import url('dlmenu.css');
+@import url('animate.css');
+/* ================================
+media 
+================================= */
+
+
+/* ================================
+General
+================================= */
+body{
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 17px;
+	overflow-x: hidden;
+}
+
+h1 {
+	font-size: 36px;
+}
+h2 {
+	font-size: 32px;
+    width: 900px;
+    padding: 30px;
+    margin: 200px 190px 0px 500px;
+    background-color: #2A3B46;
+    opacity: 0.8;
+    text-align: left;
+}
+h3 {
+	font-size: 28px;
+}
+h4 {
+	font-size: 24px;
+}
+h5 {
+	font-size: 20px;
+}
+h6 {
+	font-size: 18px;
+}
+
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
+	color: #D8DBD7;
+    margin-bottom: 20px;
+    margin-left: 502px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    width: 67%;
+}
+
+.row{
+
+}
+.lead{
+	font-weight: 400;
+}
+
+button {
+	display: inline-block;
+	margin-bottom: 0;
+	margin-bottom: 10px;
+	padding: 6px 12px;
+	border: 1px solid transparent;
+	vertical-align: middle;
+	text-align: center;
+	white-space: nowrap;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 1.428571429;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+button.navbar-toggle {
+	background: #2b2b2b;
+	border: none;
+	color: #fff;
+}
+
+.btn-theme,.btn-theme:hover,.btn-theme:focus{
+	color: #fff;
+}
+.btn-theme:hover{
+	background: transparent !important;
+	border-color: #999;
+	color: #999;
+}
+
+.pilt img {
+    margin-left: -10px;
+    margin-top: 15px;
+}
+
+/* ================================
+margin, padding
+================================= */
+.mar-top0 {
+	margin-top: 0;
+}
+.mar-top10 {
+	margin-top: 10px;
+}
+.mar-top20 {
+	margin-top: 20px;
+}
+.mar-top30 {
+	margin-top: 30px;
+    margin-right: 300px;
+}
+.mar-top40 {
+	margin-top: 40px;
+}
+
+
+
+/* ================================
+Home sections
+================================= */
+
+.home-section {
+	width: 100%;
+	padding: 0px 0px 40px;
+}
+
+/* --- heading --- */
+.section-heading {
+	margin-bottom: 10px;
+    margin-left: 20px;
+}
+	
+.section-heading h2 {
+	font-size: 16px;
+}
+	
+.section-heading .heading-line {
+	margin:0 auto;
+	display: block;
+	height: 1px;
+	width: 80px;
+	background: #333;
+	margin-top: 2px;
+	margin-bottom: 20px;
+}
+
+.section-body {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    
+    -webkit-columns: 300px 2; /* Chrome, Safari, Opera */
+    -moz-columns: 300px 2; /* Firefox */
+    columns: 300px 2;
+}
+
+.section-body h2 {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+.section-body .upper-left {
+    float: left;
+    background-image: url(../img/spacer/1.jpg);
+    margin-left: -10px;
+    text-align: justify;
+    color: #FFFFFF;
+    width: 400px;
+    height: 350px;
+    text-align: left;
+    display: inline-table;
+ 
+}
+
+.section-body .upper-left p {
+    text-align: center;
+}
+.section-body .upper-left:hover {
+    opacity: 1;
+    box-shadow: inset;
+    -webkit-box-shadow: 20px 20px 20px 0px rgba(98,112,135,0.72);
+    -moz-box-shadow: 20px 20px 20px 0px rgba(98,112,135,0.72);
+    box-shadow: 20px 20px 20px 0px rgba(98,112,135,0.72);
+    
+}
+
+.section-body .upper-right {
+    width: 400px;
+    height: 380px;
+    background-image: url(../img/spacer/1.jpg);
+    color: #FFFFFF;
+    margin-left: 30px;
+    text-align: left; 
+    display: inline-table;
+}
+
+
+.section-body .upper-right:hover {
+    opacity: 1;
+    -webkit-box-shadow: 20px 20px 20px 0px rgba(98,112,135,0.72);
+    -moz-box-shadow: 20px 20px 20px 0px rgba(98,112,135,0.72);
+    box-shadow: 20px 20px 20px 0px rgba(98,112,135,0.72);
+}
+
+.section-body .down-left {
+    float: left;
+    background-image: url(../img/spacer/1.jpg);
+    color: #FFFFFF;
+    margin-left: -10px;
+    margin-top: 20px;
+    width: 400px;
+    height: 350px;
+    text-align: left;
+    display: inline-table;
+}
+
+.section-body .down-left:hover {
+    opacity: 1;
+    -webkit-box-shadow: 20px 20px 20px 0px rgba(98,112,135,0.72);
+    -moz-box-shadow: 20px 20px 20px 0px rgba(98,112,135,0.72);
+    box-shadow: 20px 20px 20px 0px rgba(98,112,135,0.72);
+}
+
+.section-body .down-right {
+    float: right;
+    background-image: url(../img/spacer/1.jpg);
+    color: #FFFFFF;
+    margin-right: -65px;
+    margin-top: 20px;
+    width: 400px;
+    height: 350px;
+    text-align: left;
+    display: inline-table;
+    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;
+}
+
+.section-body .down-right:hover {
+    opacity: 1;
+    -webkit-box-shadow: 20px 20px 20px 0px rgba(98,112,135,0.72);
+    -moz-box-shadow: 20px 20px 20px 0px rgba(98,112,135,0.72);
+    box-shadow: 20px 20px 20px 0px rgba(98,112,135,0.72);
+}
+
+.section-body h1 {
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+
+.section-body .left .middle .right .pealkiri {
+    font-size: larger;
+}
+
+/* --- middlepart1 --- */
+ .vaheosa {
+    background-image: url(../img/vahe.png);
+    height: 128px;
+    opacity: 1;
+    margin-top: 3px;
+}
+.vaheosa2 {
+    background-image: url(../img/vahe.png);
+    height: 128px;
+    opacity: 1;
+    margin-top: 3px;
+}
+.vaheosa3 {
+    background-image: url(../img/vahe.png);
+    height: 128px;
+    opacity: 1;
+    margin-top: 3px;
+}
+.osa1{
+    height:540px;               
+    margin-top: -100px
+}
+/* --- section bg var --- */
+.kontakt{
+    margin-top: 80px;
+}
+.bg-white {
+    height: 500px;
+}   
+
+.bg-white h3 {
+    font-size:20px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: black;
+    margin-right: 1400px;
+}
+.bg-white .teenused{
+    margin-top: 160px;
+    float: left;
+
+}
+
+.bg-white .teenused ul {
+    display: -webkit-box;
+    margin-right: 500px;
+    margin-left:180px;
+    padding-top: 30px;
+    font-family:'Josefin Sans', sans-serif;
+    font-size: 20px;
+}
+
+.bg-white .teenused ul a:checked{
+   border:groove 2px grey;
+}
+
+.bg-white .teenused ul.ring li{
+
+    list-style-type: circle;
+}
+
+.tehtud_tood{
+    margin-top:150px;
+}
+
+.tehtud_tood h1{
+    color: black;
+    font-size: 22px;
+}
+
+.bg-white .lahter ul{
+    display: block;
+    align-content:center;
+    position: absolute;
+    font-family: 'Josefin Sans', sans-serif;
+    width: 1800px;
+}
+
+.bg-white .lahter ul li{
+    display: list-item;
+    list-style-type: circle;
+}
+
+.bg-white .lahter p{
+    margin-top: 30px;
+    margin-left: 400px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    list-style-type: circle;
+}
+
+.bg-gray {
+	background: #f8f8f8;
+}
+
+.bg-dark {
+	background: #575757;
+}
+
+.bg-white li{
+    display: block;
+    margin-right: 100px;
+}
+.bg-white li:active {
+    text-decoration: none;
+}
+.bg-white li:hover {
+    text-decoration: none;
+}
+
+.bg-white li:visited{
+    border: 2px solid blue;
+}
+.tehtud_tood ul h2{
+    margin-left: 20px;
+    background: white;
+    margin-top: 10px;
+    font-size: 20px;
+    color: black;
+    margin-bottom: 5px;
+}
+.tehtud_tood ul h4{
+    margin-left: 50px;
+    margin-top:8px;
+    font-size: 20px;
+    color: black;
+    text-align: left;
+    
+}
+
+
+/* --- section content general color --- */
+
+.color-light h1,.color-light h2,.color-light h3,.color-light h4,.color-light h5,.color-light h6 {
+	color: #fff;
+}
+
+
+.color-light p {
+	color: #eee;
+}
+/* ==========================
+Teenused
+============================= */
+.flexslider .teenused .slides a {
+    margin-bottom: 20px;
+}
+.flex-caption {
+              width: 96%;
+              padding: 2%;
+              left: 0;
+              bottom: 0;
+              background: rgba(0,0,0,.5);
+              color: #fff;
+              text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+              font-size: 14px;
+              line-height: 18px;
+            }
+
+/* ==========================
+Spacer
+============================= */
+
+#spacer1{	
+	background-image: url(../img/spacer/1.jpg);
+    margin-top: 0px;
+}
+#spacer2{	
+	background-image: url(../img/spacer/1.jpg);
+}
+
+
+/* ================================
+Intro
+================================= */
+
+#intro{
+    height:700px;
+    width:100%;
+    background-image: url(../img/bg-mac9.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    overflow-y:hidden;
+    text-align:center;
+    position:relative;
+}
+
+
+
+.intro-text {
+	position:relative;
+	width:100%;
+	margin-top:200px;
+	z-index:1000;
+}
+#intro .brand {
+	margin-top: 40px;
+}
+.intro-text h1 a {
+	color:#fff;
+	text-align:center;
+	font-weight: 700;
+	font-size: 40px; 
+	line-height:1.1em;
+	padding-top:30px;
+	text-transform: uppercase;	
+}
+.intro-text h1 a:hover {
+	text-decoration: none;
+}
+
+
+
+.line-spacer {
+	width: 20%;
+	margin:0 auto;
+	margin-top: 20px;
+	margin-bottom: 25px;
+	border-bottom:1px solid #fff;
+}
+
+.intro-text p span {
+	color:#fff;
+	font-size: 24px;
+	text-align:center;
+	font-weight: 300;
+}
+
+/* ================================
+About
+================================= */
+.box-team img {
+	margin-bottom: 30px;
+}
+
+
+
+/* ================================
+Services
+================================= */
+
+.service-box p {
+	margin-bottom: 10px; 
+}
+
+.service.carousel h4,.service.carousel p {
+	text-align: left;
+}
+
+
+.service .carousel-control{
+	background: none;
+}
+
+.service .screenshot{
+	overflow: hidden;
+	overflow: hidden;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.service .screenshot img{
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 4px;
+	width: 400px;
+}
+
+.service .carousel-indicators {
+	position: relative;
+	bottom: 0;
+	left: 0;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding: 5px;
+	padding-bottom: 8px;
+	width: 100%;
+	background: #ffffff;
+}
+
+.service .carousel-indicators .active {
+	width: 45px;
+	height: 5px;
+	border: none;
+	border-radius: 0px;
+}
+
+.service .carousel-indicators li {
+	display: inline-block;
+	margin: 1px;
+	width: 45px;
+	height: 5px;
+	border: none;
+	border-radius: 0px;
+	background: #eeeeee;
+	text-indent: -999px;
+	cursor: pointer;
+}
+
+
+
+/* 
+	100% Height for Opera as the max-height seems to be ignored, not optimal for large screens 
+	http://bricss.net/post/11230266445/css-hack-to-target-opera 
+*/
+x:-o-prefocus, .lb-overlay img {
+    height: 100%;
+}
+/* ================================
+Hinnakiri
+================================= */
+.hinnakiri .tabel{
+    margin-left: 350px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    text-align:left;
+    padding: 5px;
+}
+.hinnakiri .pealkiri{
+    text-align: left;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.hinnakiri .pealkiri h1{
+    font-size: 30px;
+    color: darkgrey;
+}
+
+.hinnakiri .tabel td {
+    padding-right: 150px;
+}
+
+/* ================================
+Contact
+================================= */
+
+#maps {
+    width: 200px;
+    height: 200px;
+    background-color: #CCC;
+    margin-left: 700px;
+}
+
+
+/* ================================
+Bottom widget
+================================= */
+ul.social-network {	
+	margin: 0;
+	margin-left:0;
+	padding-left: 0;
+	list-style: none;
+}
+ul.social-network li {
+	display: inline;
+	margin: 5px 5px;
+}
+
+ul.social-network li a:hover span .fa-circle {
+	color: #2b2b2b;
+}
+
+.kontakt h5{
+    font-size: 40px;
+    margin-left: 120px;
+}
+.kontakt .row .form-horizontal { 
+    margin-left: -300px;
+    margin-right: 300px;
+    margin-top: 50px;
+}
+.kontakt .row2{
+    margin-top: -300px;
+    position: absolute;
+    margin-left: 700px;
+}
+   
+/* ================================
+Footer
+================================= */
+footer {
+	background: #2b2b2b;
+	color: #ddd;
+	padding: 0px 0px 30px;
+}
+
+footer p{
+    margin-top: 80px;
+}
+
+/* ================================
+more media queries
+================================= */
+
+@media (max-width:768px) {
+	#intro{
+        background-image: url(../img/bg-mac10.jpg);
+        background-position: center;
+        width: 100%;
+        overflow:hidden;
+	}
+    .dl-menuwrapper .dl-menu{
+        width: 300%;
+        display: inherit;
+    }
+    .menu-area{
+        position: absolute;
+    }
+    .menu-area .d0-menu ul{
+        margin-left: -800px;
+        color: black;
+    }
+    #intro .container{
+            margin-left: -220px;
+    }
+    #middle{
+        display:none;
+    }
+    #middle2{
+        height:50px;
+    }
+    #middle3{
+        height:50px;
+        margin-top:-100px;
+    }
+    .hinnakiri .pealkiri h1 {
+        margin-left:450px;
+    }
+    .hinnakiri{
+        margin-left: -300px;
+        width: 200%;
+    }
+    .kontakt{
+        zoom: 50%;
+        width: 80%;
+        margin-left: 350px;
+        padding-right: 200px;
+    }
+    .kontakt .row2{
+    }
+    footer{display:none}
+    body{overflow-x:hidden}
+}
+
+@media (max-width:640px) {
+
+    #intro{
+        background-image: url(../img/bg-mac10.jpg);
+        background-position: center;
+        width: 100%;
+        overflow:hidden;
+	}
+    .dl-menuwrapper .dl-menu{
+        width: 300%;
+        display: inherit;
+    }
+    .menu-area{
+        position: absolute;
+    }
+    .menu-area .d0-menu ul{
+        margin-left: -800px;
+        color: black;
+    }
+    #intro .container{
+       display:none;
+    }
+    #middle{
+        display:none;
+    }
+    #middle2{
+        height:50px;
+    }
+     #middle3{
+        height:50px;
+        margin-top: -100px;
+    }
+     .hinnakiri{
+         zoom:60%;
+         width:250%
+    }
+     .hinnakiri .pealkiri h1 {
+         margin-left:450px;
+    }
+     .kontakt{
+         zoom:40%;
+         width: 60%;
+    }
+     .kontakt .row2{
+
+    }
+     footer{display:none}
+     body{overflow-x:hidden}
+}
+
+@media (max-width:480px){
+	#intro{
+        background-image: url(../img/bg-mac10.jpg);
+        background-position: center;
+        width: 100%;
+        overflow:hidden;
+	}
+    .dl-menuwrapper .dl-menu{
+        width: 300%;
+        display: inherit;
+    }
+    .menu-area{
+        position: absolute;
+    }
+    .menu-area .d0-menu ul{
+        margin-left: -800px;
+        color: black;
+    }
+    #intro .container{
+       display:none;
+    }
+    #middle{
+        display:none;
+    }
+    #middle2{
+        height:50px;
+    }
+     #middle3{
+        height:50px;
+        margin-top: -200px;
+    }
+    .hinnakiri{
+        zoom: 50%;
+    }
+    .hinnakiri .pealkiri h1 {
+        margin-left: 395px;
+    }
+    .kontakt{
+            zoom: 25%;
+            width: 60%;
+            margin-left: 400px;
+    }
+    .kontakt .row2{
+
+    }
+    footer{display:none}
+    body{overflow-x:hidden}
+}

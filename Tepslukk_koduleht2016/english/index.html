@@ -1,0 +1,406 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+  <head>
+     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet" /> 
+    <title>Tepslukk</title>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <!-- css -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/style.css" rel="stylesheet" media="screen">
+     <link href="css/flexslider.css" rel="stylesheet" media="screen" />
+	<link href="color/default.css" rel="stylesheet" media="screen">
+	<script src="js/modernizr.custom.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+    <script src="../js/jquery.flexslider.js"></script>
+    <script>
+          jQuery(document).ready(function($){ {
+              $( "#tabs" ).tabs();
+          };
+          })</script>
+      <script>
+        function initialize() {
+        var mapCanvas = document.getElementById('map');
+        var mapOptions = {
+          center: new google.maps.LatLng(58.3746732, 26.7362381,17),
+          zoom: 16,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(mapCanvas, mapOptions)
+      }
+        google.maps.event.addDomListener(window, 'load', initialize);
+      </script>
+          <!--Kustuta alates siit-->
+      <script>
+          jQuery(document).ready(function($){ {
+              //$(window).load(function () {
+              $('.flexslider').flexslider({
+                  animation: "slide"
+              });
+          };
+          })</script>
+ 
+      <script type="text/javascript">
+
+        if (screen.width <= 699) {
+        document.location = "mobile.html";
+        }
+//-->
+      </script>
+
+    <style>
+      #map {
+        width: 300px;
+        height: 200px;
+        margin-left: 600px;
+        position: absolute;
+      }
+    </style>
+      </head>
+  <body> 
+      
+            <div class="menu-area">
+                <div class="topp">
+                    <ul class="d0-menu">
+                        <img src="img/icon.png" height="50" width="50">
+                            <ul style="list-style-type:none">
+                                <li><b>Vajad kohest lukuabi?</b></li>
+                                <li>Helista: <b>+37256560116</b></li>
+                                <li>tepslukk@tepslukk.ee</li>
+                            </ul>
+                            <ul style="list-style-type:none">
+                                <li><b>Zeppelini kaubanduskeskus</b></li>
+                                <li>Turu 14, 51014 Tartu</li>
+                                <li>E-L 10-20, P 10-18</li>
+                            </ul>
+                        </ul>
+                    <ul class="dl-menu">
+                        <div id="dl-menu" class="dl-menuwrapper">
+                            <ul class="dl-menu">
+                                <li>
+                                    <a href="#intro">kodu</a>
+                                </li>
+                                <li><a href="#middle">teenused</a></li>
+                                <li><a href="#middle3">hinnakiri</a></li>
+                                <li><a href="#middle2">kontakt</a></li>
+                                <li>
+                                    <a href="#">english/русский</a>
+                                    <ul class="dl-submenu">
+                                        <li><a target="_blank" href="/english/index.html">english</a></li>
+                                        <li><a target="_blank" href="/rus/index.html">русский</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <ul class="pilt">
+                                <li>
+                                    <img src="img/logoproov.png">
+                                </li>
+                            </ul>
+                    </ul>
+                </div><!-- /dl-menuwrapper -->
+</div>	
+
+	  <!-- intro area -->	  
+	  <div id="intro">
+	  
+			<div class="intro-text">
+				<div class="container">
+                        <div class="row">
+                        <h2>Under construction!
+                            </h2>
+                                           
+					<div class="col-md-12">
+					</div>
+					</div>
+				</div>
+		 	</div>
+			
+	 </div>
+      <!-- Middle part for the Teenused href -->
+      <div id="middle" class="vaheosa"></div>
+      
+      <!-- Services2 -->
+      <section  class="osa1"> 
+               <div class="flexslider">
+              <div class="teenused">
+                  <ul class="slides">
+                      <li>
+                          <a><b>Lukud ja -v&otilde;tmed</b></a>
+                          <div id="tabs-1" class="lahter" align="left">
+                              <p></p>
+                              <p></p>
+                              <p>Meie tegevusalasse kuuluvad kõik lukkude ja v&otilde;tmetega seotud teenused</p>
+                              <ul class="ring">
+                                  <li>Ukselukkude avamine ja remont</li>
+                                  <li>Ukselukkude paigaldus metall ja puitukstele</li>
+                                  <li>Lukus&uuml;damike m&uuml;&uuml;k </li>
+                                  <li>V&otilde;tmete valmistamine ja m&uuml;&uuml;k. Lisav&otilde;tmete valmistamiseks tulge palun koos originaalv&otilde;tmega meie esindusse</li>
+                                  <li>Seifilukkude avamine ning remont</li>
+                                  <li>ASSA ja ABLOY lukkude paigaldus ning m&uuml;&uuml;k</li>
+                                  <li>Assa lukus&uuml;steemide loomine ja paigaldus (nt. &uuml;he v&otilde;tmega on v&otilde;imalik avada mitut ust)</li>
+                              </ul>
+                          </div>
+                      </li>
+                      <li>
+                          <a><b>Autoukselukud ja -v&otilde;tmed</b></a>
+                          <div id="tabs-2" class="lahter" align="left">
+                              <p></p>
+                              <p></p>
+                              <p>Tegeleme autolukkude, autov&otilde;tmete ning autopultidega seotud teenustega</p>
+                              <ul class="ring">
+                                  <li>Kaotatud v&otilde;tmete või rikkis luku korral aitame avada autouksi</li>
+                                  <li>Samuti tegeleme autoukselukkude remondi ning hooldusega</li>
+                                  <li>
+                                      Lisaks kopeerimine ka immobilaiseriga autov&otilde;tmeid. Teenuse hind on tunduvalt odavam kui ametlikes autoesindustes!
+                                  </li>
+                                  <li>
+                                      Automargile kohandatud v&otilde;tmete valik on rikkalik.
+                                  </li>
+                              </ul>
+                          </div>
+                      </li>
+                      <li>
+                          <a><b>Fonos&uuml;steemid</b></a>
+                          <div id="tabs-3" class="lahter" align="left">
+                              <p></p>
+                              <p></p>
+                              <p>Tegeleme fonos&uuml;steemide ja uksetelefonide paigaldusega kortermajadele ning b&uuml;roohoonetele</p>
+                              <ul class="ring">
+                                  <li>
+                                      Fonos&uuml;steemide levinuimaks kasutusalaks on mitme korteriga elamud ning b&uuml;roohooned.
+                                      </br>Tegeleme fono&uuml;steemide projekteerimise, paigalduse ja hooldusegfn Huvi korral kontakteeruge ning me tuleme kohale</br>
+                                      ja vaatame hoone üle!
+                                  </li>
+
+                                  <li>Lisaks m&uuml;&uuml;me, kopeerime ning valmistame puutev&otilde;tmeid erinevatele fonos&uuml;steemidele</li>
+                                  <li>Huvi korral paigaldame ka fonotelefone koos monitoridega</li>
+                                  <li>Fonos&uuml;steemi paigaldamisel pakkume ka hooldust</li>
+                                  <li>Hinnapakkumist küsige meilt</li>
+                              </ul>
+                          </div>
+                      </li>
+                      <li>
+                          <a><b>Ukseautomaatika</b></a>
+                          <div id="tabs-4" class="lahter" align="left">
+                              <p></p>
+                              <p></p>
+                              <p>Paigaldame ukseautomaatikat kaubanduskeskustele, b&uuml;roohoonetele ning teistele objektidele</p>
+                              <ul class="ring">
+                                  <li>Pakume nii kahe- kui ka ühepoolsete uste automaatika paigaldust ning hooldust</li>
+                                  <li>Paigaldatavad margid: TORMAX, GEZE, DORMA, BESAM-ABLOY, NEPTUS, LEBEL</li>
+                                  <li>Tartu ja L&otilde;una-Eestis oleme paigaldanud ukseautomaatikat v&atilde;ga mitmetele poekettide, b&uuml;roode ning kaubanduskeskuste hoonetele.</li>
+                                  <li>Hinnapakkumiseks kontakteeruge meiega!</li>
+                              </ul>
+                          </div>
+                      </li>
+                  </ul>
+              </div>
+           </div>
+          </section>
+      <!-- Middle part for the hinnakiri href -->
+      <div id="middle3" class="vaheosa3"></div>
+      <!-- hinnakiri -->
+      <section class="hinnakiri">
+         <div class="pealkiri">
+             <h1>Hinnakiri</h1>
+         </div> 
+          <div class="tabel">
+              <table>
+                  <tr>
+                      <td>Väljakutse Tartu linna piires + töö kuni 15min</td>
+                      <td>€35</td>
+                  </tr>
+                  <tr>
+                      <td>Väljakutse Tartu linna väljas sõidul</td>
+                      <td>Hind kokkuleppel</td>
+                  </tr>
+                  <tr>
+                     <td>Väljakutse + konsultatsioon (ei sisalda tööd)</td> 
+                     <td>€25</td>
+                  </tr>
+                  <tr>
+                      <td>Abloy võti</td>
+                      <td>€4.20 - €8</td>
+                  </tr>
+                  <tr>
+                      <td>Assa võti</td>
+                      <td>€5.50 - €7.20</td>
+                  </tr>
+                  <tr>
+                      <td>Vasar, U5D võti</td>
+                      <td>€3.50</td>
+                  </tr>
+                  <tr>
+                      <td>Plaatmuuk ühepoolne</td>
+                      <td>€7.00</td>
+                  </tr>
+                  <tr>
+                      <td>Plaatmuuk kahepoolne</td>
+                      <td>€8.00</td>
+                  </tr>
+                  <tr>
+                      <td>Seifivõti</td>
+                      <td>€15.00</td>
+                  </tr>
+                  <tr>
+                      <td>Puutevõti fonolukule</td>
+                      <td>€5.50</td>
+                  </tr>
+                  <tr>
+                      <td>Puutevõti RF</td>
+                      <td>€6.00</td>
+                  </tr>
+                  <tr>
+                      <td>Autovõti metall</td>
+                      <td>€9.00</td>
+                  </tr>
+                  <tr>
+                      <td>Autovõti plastik</td>
+                      <td>€10.00</td>
+                  </tr>
+                  <tr>
+                      <td>Fordivõti</td>
+                      <td>€16.00</td>
+                  </tr>
+                  <tr>
+                      <td>Külgmuuk autovõti</td>
+                      <td>€16.00</td>
+                  </tr>
+                  <tr>
+                      <td>Immobilaiseri autovõti TP05</td>
+                      <td>€42.00</td>
+                  </tr>
+                  <tr>
+                      <td>Immobilaiseri autovõti TPX1, TPX2, TPH1, TPX4</td>
+                      <td>€75.00</td>
+                  </tr>
+                  <tr>
+                      <td>Luku südamiku kodeerimine</td>
+                      <td>€20.00</td>
+                  </tr>
+                  <tr>
+                      <td>Ukselukkude paigaldus puit</td>
+                      <td>€35.00</td>
+                  </tr>
+                  <tr>
+                      <td>Ukselukkude paigaldus metall</td>
+                      <td>€45.00</td>
+                  </tr>
+                  <tr>
+                      <td>lalallala</td>
+                      <td>lalalal</td>
+                  </tr>
+                  <tr>
+                      <td>blahblah</td>
+                      <td>blahblah</td>
+                  </tr>
+                  <tr>
+                      <td>blahblah</td>
+                      <td>blahblah</td>
+                  </tr>
+                  <tr>
+                      <td>blahblah</td>
+                      <td>blahblah</td>
+                  </tr>
+                  <tr>
+                      <td>blahblah</td>
+                      <td>blahblah</td>
+                  </tr>
+                  <tr>
+                      <td>blahblah</td>
+                      <td>blahblah</td>
+                  </tr>
+              </table>
+          </div>
+      </section>
+    <!-- Middle part for the kontakt href -->
+      <div id="middle2" class="vaheosa2"></div>
+
+      
+         <!-- Contact -->
+    <section class="kontakt">
+          <div id="contact" class="home-section bg-white">
+                        <div class="container">
+                  <div class="row">
+                      <div class="col-md-offset-2 col-md-8">
+                          <div class="section-heading">
+                              <h5>Kontakt</h5>
+                              <p>Helista <b>+372 56 560 116</b> või kirjuta  </p>
+                          </div>
+                      </div>
+                  </div>
+                    <div class="row">
+                      <div class="col-md-offset-1 col-md-10">
+
+                          <form class="form-horizontal" role="form" method="post" action="email.php">
+                              <div class="form-group">
+                                  <div class="col-md-offset-2 col-md-8">
+                                      <input type="text" class="form-control" id="inputName" name="nimi" placeholder="nimi" />
+                                  </div>
+                              </div>
+                              <div class="form-group">
+                                  <div class="col-md-offset-2 col-md-8">
+                                      <input type="email" class="form-control" id="inputEmail" name="email" placeholder="email" />
+                                  </div>
+                              </div>
+                              <div class="form-group">
+                                  <div class="col-md-offset-2 col-md-8">
+                                      <input type="text" class="form-control" id="inputSubject" name="teema" placeholder="teema" />
+                                  </div>
+                              </div>
+                              <div class="form-group">
+                                  <div class="col-md-offset-2 col-md-8">
+                                      <textarea name="message" class="form-control" rows="3" placeholder="kiri"></textarea>
+                                  </div>
+                              </div>
+                              <div class="form-group">
+                                  <div class="col-md-offset-2 col-md-8">
+                                      <button type="submit" class="btn btn-theme btn-lg btn-block">Saada</button>
+                                  </div>
+                              </div>
+                          </form>
+
+                      </div> 
+
+                  </div>
+                  <div class="row2">
+                  <div class="aadress">
+                      <p>Asume aadressil:</p>
+                      <p>Turu 14, Tartu, Zeppelini Kaubanduskeskus</p>
+                      <p>telefon: 7441656</p>
+                      <p>poemobiil: +372 56 244 565</p>
+                      <p>E-L 10-20; P 10-18</p>
+                      <p>E-mail: tepslukk@hot.ee</p>
+                  </div>
+              </div>
+
+              </div>
+              
+          </div>
+
+          <footer>
+              <div class="container">
+                  <div class="row">
+                      <div class="col-md-12">
+                          <p>Tepslukk O&Uuml; 2016</p>
+                      </div>
+                  </div>
+              </div>
+
+          </footer>
+
+          <!-- js -->
+          <script src="js/jquery.js"></script>
+          <script src="js/bootstrap.min.js"></script>
+          <script src="js/jquery.smooth-scroll.min.js"></script>
+          <script src="js/jquery.dlmenu.js"></script>
+          <script src="js/wow.min.js"></script>
+          <script src="js/custom.js"></script>
+          <script src="js/jquery.hoverdir.js"></script>
+      </section></body>
+  	
+</html>
