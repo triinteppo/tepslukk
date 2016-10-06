@@ -43,10 +43,12 @@ h2 {
     text-align: left;
 }
 h3 {
-	font-size: 28px;
+	font-size: 17px;
+    text-align:right;
 }
 h4 {
-	font-size: 24px;
+	font-size: 17px;
+    text-align:left;
 }
 h5 {
 	font-size: 20px;
@@ -55,7 +57,7 @@ h6 {
 	font-size: 18px;
 }
 
-h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
+h1,h2,h5,h6,.h1,.h2,.h5,.h6{
 	color: #D8DBD7;
     margin-bottom: 20px;
     margin-left: 502px;
@@ -289,7 +291,7 @@ Home sections
 }
 .osa1{
     height:540px;               
-    margin-top: -100px
+    margin-top: -50px
 }
 /* --- section bg var --- */
 .kontakt{
@@ -502,7 +504,9 @@ About
 .box-team img {
 	margin-bottom: 30px;
 }
-
+/* ================================
+hinnakiri
+================================= */
 
 
 /* ================================
@@ -580,12 +584,19 @@ x:-o-prefocus, .lb-overlay img {
 /* ================================
 Hinnakiri
 ================================= */
+.bootstrap .hinnakiri{
+    margin-top: 130px;
+    zoom:90%;
+}
+
 .hinnakiri .tabel{
-    margin-left: 350px;
+    margin-left: 120px;
     margin-top: 50px;
-    margin-bottom: 40px;
     text-align:left;
-    padding: 5px;
+    width:1500px;
+    zoom: 90%;
+    
+
 }
 .hinnakiri .pealkiri{
     text-align: left;
@@ -599,7 +610,9 @@ Hinnakiri
 }
 
 .hinnakiri .tabel td {
-    padding-right: 150px;
+    padding-right: 200px;
+    padding-left:2em;
+    border: solid 1px darkgrey;
 }
 
 /* ================================
@@ -663,125 +676,3 @@ footer p{
 more media queries
 ================================= */
 
-@media (max-width:768px) {
-	#intro
-    .dl-menuwrapper .dl-menu
-    .menu-area
-    .menu-area .d0-menu ul
-    #intro .container{
-            margin-left: -220px;
-    }
-    #middle{
-        display:none;
-    }
-    #middle2{
-        height:50px;
-    }
-    #middle3{
-        height:50px;
-        margin-top:-100px;
-    }
-    }
-    .hinnakiri{
-        margin-left: -300px;
-        width: 200%;
-    }
-    .kontakt{
-        zoom: 50%;
-        width: 80%;
-        margin-left: 350px;
-        padding-right: 200px;
-    }
-    .kontakt .row2{
-    }
-        background-position: center;
-        width: 100%;
-        overflow:hidden;
-	}
-    .dl-menuwrapper .dl-menu{
-        width: 300%;
-        display: inherit;
-    }
-    .menu-area{
-        position: absolute;
-    }
-    #intro .container{
-       display:none;
-    }
-    #middle{
-        display:none;
-    }
-    #middle2{
-        height:50px;
-    }
-     #middle3{
-        height:50px;
-        margin-top: -100px;
-    }
-     .hinnakiri{
-         zoom:60%;
-         width:250%
-    }
-     .hinnakiri .pealkiri h1 {
-         margin-left:450px;
-    }
-     .kontakt{
-         zoom:40%;
-         width: 60%;
-    }
-     .kontakt .row2{
-
-    }
-     footer{display:none}
-     body{overflow-x:hidden}
-}
-
-@media (max-width:480px){
-	#intro{
-        background-image: url(../img/bg-mac10.jpg);
-        background-position: center;
-        width: 100%;
-        overflow:hidden;
-	}
-    .dl-menuwrapper .dl-menu{
-        width: 300%;
-        display: inherit;
-    }
-    .menu-area{
-        position: absolute;
-    }
-    .menu-area .d0-menu ul{
-        margin-left: -800px;
-        color: black;
-    }
-    #intro .container{
-       display:none;
-    }
-    #middle{
-        display:none;
-    }
-    #middle2{
-        height:50px;
-    }
-     #middle3{
-        height:50px;
-        margin-top: -200px;
-    }
-    .hinnakiri{
-        zoom: 50%;
-    }
-    .hinnakiri .pealkiri h1 {
-        margin-left: 395px;
-    }
-    .kontakt{
-            zoom: 25%;
-            width: 60%;
-            margin-left: 400px;
-    }
-    .kontakt .row2{
-
-    }
-    footer{display:none}
-    body{overflow-x:hidden}
-}
-}
